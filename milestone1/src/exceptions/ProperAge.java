@@ -8,7 +8,7 @@ public class ProperAge {
 		  try {
 		   if(age<18 || age>=60)
 		    throw new InvalidAgeException("Invalid Age");
-		   System.out.println("Name= "+ name+ " Age= "+ age);
+		   System.out.println("Name= "+ name+ "  = "+ age);
 		  }
 		  catch(InvalidAgeException e) {
 		   System.out.println(e);
